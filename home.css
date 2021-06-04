@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: blue;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header fieldset {
+    text-align: center;
+}
+
+.advertisment {
+    width: fit-content;
+    height: 87vh;
+    display: inline-block;
+}
+
+.advertisment marquee {
+    height:86vh;
+}
+
+#rightad {
+    float: right;
+}
+
+.content {
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.sitemap {
+    width: 19vw;
+    display: inline-block;
+    vertical-align: top;
+    height: 500px;
+    text-align: center;
+    
+}
+
+.pageviewer {
+    display: inline-block;
+    vertical-align: top;
+    width: 79vw;
+    height: 500px;
+}
+
+#myFrame {
+    width: 79vw;
+    height: 500px;
+}
+
+.polls {
+    width: 10vh;
+}

@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: blue;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header fieldset {
+    text-align: center;
+}
+
+.advertisment {
+    width: fit-content;
+    height: 87vh;
+    display: inline-block;
+}
+
+.advertisment marquee {
+    height:86vh;
+}
+
+#rightad {
+    float: right;
+}
+
+.blog {
+    display: inline-block;
+    vertical-align: top;
+    height: 87vh;
+    width: 100vw;
+    text-align: center;
+}
