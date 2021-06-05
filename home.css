@@ -54,15 +54,24 @@ header fieldset {
 .pageviewer {
     display: inline-block;
     vertical-align: top;
-    width: 79vw;
+    width: 59vw;
     height: 500px;
 }
 
 #myFrame {
-    width: 79vw;
+    width: 59vw;
     height: 500px;
+    display: inline-block;
 }
 
 .polls {
-    width: 10vh;
+    width: 20vw;
+    display: inline-block;
+    text-align: center;
+    height: 500px;
+    float: right;
+}
+
+.poll {
+    margin-left: 30%;
 }
